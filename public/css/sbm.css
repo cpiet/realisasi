@@ -1,0 +1,28 @@
+/* Modul Standar Biaya SBM — memakai variabel tema SIMRAN (terang/gelap). */
+.sbm-banner { border-radius: 12px; padding: 12px 14px; margin-bottom: 14px; font-size: 14px; border: 1px solid var(--border); background: var(--card2); color: var(--text); }
+.sbm-banner.warn { background: var(--warn-bg); border-color: var(--warn); color: var(--text); }
+[data-theme="dark"] .sbm-banner.warn { background: rgba(217, 119, 6, .15); }
+.sbm-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 16px; }
+.sbm-chip { border: 1px solid var(--border2); background: var(--card); color: var(--text); border-radius: 999px; padding: 5px 13px; font-size: 13px; cursor: pointer; }
+.sbm-chip:hover, .sbm-chip:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+.sbm-filters { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 10px; }
+@media (max-width: 767px) { .sbm-filters { grid-template-columns: 1fr; } }
+.sbm-card { margin-bottom: 14px; }
+.sbm-card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+.sbm-card h3 { font-size: 16px; margin: 0; }
+.sbm-badge { display: inline-block; border-radius: 999px; padding: 2px 10px; font-size: 12px; font-weight: 650; }
+.sbm-badge.max { background: var(--ok-bg); color: var(--ok); }
+.sbm-badge.over { background: var(--warn-bg); color: var(--warn); }
+.sbm-badge.review { background: var(--bad-bg); color: var(--bad); }
+.sbm-table-wrap { overflow-x: auto; margin-top: 10px; }
+.sbm-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.sbm-table th, .sbm-table td { padding: 7px 10px; border-bottom: 1px solid var(--border); text-align: left; }
+.sbm-table td.num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 650; white-space: nowrap; }
+.sbm-table tr.grp td { background: var(--card2); font-weight: 650; font-size: 13px; color: var(--muted); }
+.sbm-ketentuan { margin-top: 12px; border-top: 1px dashed var(--border2); padding-top: 8px; }
+.sbm-ketentuan summary { cursor: pointer; font-weight: 650; font-size: 14px; }
+.sbm-ketentuan p, .sbm-ketentuan li { font-size: 13.5px; margin: 6px 0; }
+.sbm-ketentuan ul { padding-left: 18px; margin: 4px 0; }
+.sbm-source { font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+.sbm-empty { text-align: center; padding: 28px 12px; color: var(--muted); }
+.sbm-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }

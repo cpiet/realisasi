@@ -1,0 +1,47 @@
+# CodeIgniter 4 gitignore
+/vendor/
+.env
+
+# Writable directories (exclude runtime files, keep structure)
+/writable/cache/*
+!/writable/cache/.gitkeep
+/writable/debugbar/*
+!/writable/debugbar/.gitkeep
+/writable/logs/*
+!/writable/logs/.gitkeep
+/writable/session/*
+!/writable/session/.gitkeep
+/writable/uploads/*
+!/writable/uploads/.gitkeep
+
+# Exclude SQLite databases & backup dumps from repository
+/writable/database/*.sqlite*
+/writable/database/*.bak*
+!/writable/database/.gitkeep
+!/writable/database/index.html
+
+# Local backups & update archives
+backup_local_*
+patch_update_rpa_*
+*.zip
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+realisasi.code-workspace
+
+# Agent & AI workspace files
+.agents/
+GEMINI.md
+
+# SBM ETL intermediate text outputs
+tools/sbm_etl/out/pmk32/
+tools/sbm_etl/out/pmk54/
+tools/sbm_etl/out/sbm2025/

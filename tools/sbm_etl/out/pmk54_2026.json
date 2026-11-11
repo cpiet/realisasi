@@ -1,0 +1,354 @@
+{
+    "I": {
+        "1": {
+            "no": "1",
+            "nama": "Honorarium Penanggung Jawab Pengelola Keuangan",
+            "deskripsi": "Honorarium yang diberikan kepada Pegawai Negeri Sipil (PNS)\/Prajurit Tentara Nasional Indonesia (TNI)\/Anggota Kepolisian Republik Indonesia (POLRI) yang ditugaskan sebagai Kuasa Pengguna Anggaran (KPA), Pejabat Pembuat Komitmen (PPK), Pejabat Penguji Tagihan dan Penandatangan Surat Perintah Membayar, Bendahara Pengeluaran, dan kepada seseorang yang diberi tugas sebagai Staf Pengelola Keuangan (SPK)\/Bendahara Pengeluaran Pembantu\/Petugas Pengelola Administrasi Belanja Pegawai (PPABP).",
+            "hal": "5"
+        },
+        "2": {
+            "no": "2",
+            "nama": "Honorarium Pengadaan Barang\/Jasa",
+            "deskripsi": "Honorarium yang diberikan kepada seseorang yang ditugaskan sebagai:\n• a. Pejabat Pengadaan Barang\/Jasa;\n• b. Kelompok Kerja Pemilihan; atau\n• c. Pengguna Anggaran, untuk melaksanakan pemilihan penyedia barang\/jasa sesuai dengan ketentuan peraturan perundang-undangan.",
+            "hal": "5"
+        },
+        "3": {
+            "no": "3",
+            "nama": "Honorarium Perangkat Unit Kerja Pengadaan Barang dan Jasa (UKPBJ)",
+            "deskripsi": "Honorarium yang diberikan kepada seseorang yang diberi tugas tambahan sebagai perangkat pada UKPBJ.",
+            "hal": "5"
+        },
+        "4": {
+            "no": "4",
+            "nama": "Honorarium Pengelola Penerimaan Negara Bukan Pajak (PNBP)",
+            "deskripsi": "Honorarium diberikan kepada Pegawai Aparatur Sipil Negara (ASN)\/Prajurit TNI\/Anggota POLRI yang diberi tugas oleh pejabat yang berwenang untuk mengelola PNBP fungsional.",
+            "hal": "5"
+        },
+        "5": {
+            "no": "5",
+            "nama": "Honorarium Pengelola Sistem Akuntansi dan Pelaporan Keuangan Instansi (SAI)",
+            "deskripsi": "Honorarium yang diberikan kepada Pegawai ASN\/Prajurit TNI\/Anggota POLRI yang diberi tugas melakukan pengumpulan data, pencatatan, pengikhtisaran sampai dengan pelaporan posisi keuangan, dan operasi keuangan pada kementerian negara\/lembaga sesuai dengan unit akuntansi masing -masing, baik yang dikelola secara prosedur manual maupun terkomputerisasi.",
+            "hal": "5"
+        },
+        "6": {
+            "no": "6",
+            "nama": "Honorarium Pengurus\/Penyimpan Barang Milik Negara",
+            "deskripsi": "Honorarium yang diberikan kepada Pegawai ASN\/Prajurit TNI\/Anggota POLRI di lingkungan Pengguna Barang dan Kuasa Pengguna Barang yang melaksanakan tugas rutin selaku pengurus\/penyimpan barang yang menghasilkan penerimaan negara.",
+            "hal": "5"
+        },
+        "7": {
+            "no": "7",
+            "nama": "Honorarium Penunjang Penelitian\/Perekayasaan",
+            "deskripsi": "Honorarium yang diberikan kepada seseorang yang ditugaskan sebagai pembantu peneliti\/perekayasa, pengolah data, petugas survei, dan pembantu lapangan untuk menunjang kegiatan penelitian perekayasaan yang dilakukan oleh fungsional peneliti\/perekayasan\/tenaga pendidik dan tenaga kependidikan dalam rangka penyelenggaraan Tri Darma Perguruan Tinggi.",
+            "hal": "5-6"
+        },
+        "8": {
+            "no": "8",
+            "nama": "Honorarium Komite Penelitian",
+            "deskripsi": "Honorarium yang diberikan kepada Komite Penilaian dan\/atau Reviewer Proposal, Komite Penilaian dan\/atau Reviewer Keluaran Penelitian, dan Komite Etik Penelitian.",
+            "hal": "6"
+        },
+        "9": {
+            "no": "9",
+            "nama": "Honorarium Narasumber\/Moderator\/Pembawa Acara\/Panitia",
+            "deskripsi": "Kelompok Honorarium yang diberikan kepada Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI dalam kegiatan Seminar\/Rapat\/Sosialisasi\/Diseminasi\/Bimbingan Teknis\/Workshop\/Sarasehan\/Simposium\/Lokakarya\/Focus Group Discussion\/Kegiatan Sejenis yang dilaksanakan secara luar jaringan (offline) maupun dalam jaringan (online) melalui aplikasi secara live dan bukan rekaman\/hasil taping, baik di dalam negeri maupun di luar negeri.",
+            "hal": "6"
+        },
+        "10": {
+            "no": "10",
+            "nama": "Honorarium Pemberi Kete rangan Ahli\/Saksi Ahli dan Beracara",
+            "deskripsi": "Honorarium yang diberikan kepada Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI yang diberi tugas menghadiri dan memberikan informasi\/keterangan sesuai dengan keahlian di bidang tugasnya yang diperlukan dalam tingkat penyidikan dan\/atau persidangan di pengadilan, atau beracara mewakili instansi pemerintah dalam persidangan pengadilan.",
+            "hal": "6"
+        },
+        "11": {
+            "no": "11",
+            "nama": "Honorarium Penyelenggaraan Kegiatan Pendidikan pada Lingkup Pendidikan Tinggi",
+            "deskripsi": "Honorarium yang diberikan atas pelaksanaan tugas tambahan\/tugas khusus tertentu, penyelenggara kegiatan akademik dan kemahasiswaan serta penugasan lain dalam rangka penyelenggaraan kegiatan pendidikan pada lingkup pendidikan tinggi.",
+            "hal": "6"
+        },
+        "12": {
+            "no": "12",
+            "nama": "Honorarium Penyuluh Non Aparatur Sipil Negara (ASN)",
+            "deskripsi": "Honorarium diberikan sebagai pengganti upah kerja kepada non pegawai ASN yang ditugaskan untuk melakukan penyuluhan.",
+            "hal": "6"
+        },
+        "13": {
+            "no": "13",
+            "nama": "Honorarium Rohaniwan",
+            "deskripsi": "Honorarium yang diberikan kepada seseorang yang ditugaskan oleh pejabat yang berwenang sebagai rohaniwan dalam pengambilan sumpah jabatan.",
+            "hal": "6"
+        },
+        "14": {
+            "no": "14",
+            "nama": "Honorarium Tim Pelaksana Kegiatan dan Sekretariat Tim Pelaksana Kegiatan",
+            "deskripsi": "Honorarium yang diberikan kepada seseorang yang berdasarkan Keputusan Presiden\/Menteri\/Pejabat Setingkat Menteri\/Pejabat Eselon I\/KPA diangkat dalam suatu tim pelaksana kegiatan atau Sekretariat Tim Pelaksana Kegiatan untuk melaksanakan suatu tugas tertentu atau melaksanakan kegiatan administratif untuk menunjang kegiatan tim pelaksana kegiatan.",
+            "hal": "6"
+        },
+        "15": {
+            "no": "15",
+            "nama": "Honorarium Penyusunan Jurnal dan Pembuat Artikel",
+            "deskripsi": "Honorarium yang diberikan dalam rangka penyusunan jurnal baik cetak maupun elektronik, atau berkontribusi dalam penulisan artikel pada Jurnal\/Buletin\/Majalah\/Website.",
+            "hal": "6"
+        },
+        "16": {
+            "no": "16",
+            "nama": "Honorarium Panitia Penyelenggara\/Tuan Rumah Sidang\/Konferensi Internasional\/Konferensi Tingkat Menteri, Senior Official Meeting (Bilateral\/Regional\/Multilateral),Workshop\/Seminar\/Sosialisasi\/Sarasehan",
+            "deskripsi": "Berskala Internasional Honorarium yang dapat diberikan kepada Pejabat Negara\/ASN\/Prajurit TNI\/Anggota POLRI yang berdasarkan surat keputusan pejabat berwenang menjadi penyelenggara suatu kegiatan sidang\/konferensi yang dihadiri pejabat setingkat Menteri\/senior official atau penyelenggara kegiatan workshop\/seminar\/sosialisasi\/sarasehan berskala internasional.",
+            "hal": "7"
+        },
+        "17": {
+            "no": "17",
+            "nama": "Honorarium Penyelenggara Ujian dan Vakasi",
+            "deskripsi": "Honorarium yang diberikan bagi penyusun\/pembuat bahan ujian, pengawas ujian, penguji atau pemeriksa hasil ujian pada pendidikan tingkat dasar, dan menengah.",
+            "hal": "7"
+        },
+        "18": {
+            "no": "18",
+            "nama": "Honorarium Seleksi Tingkat Nasional",
+            "deskripsi": "Honorarium yang diberikan kepada Pegawai ASN\/Prajurit TNI\/Anggota POLRI maupun non Pegawai Aparatur Sipil Negara dalam penyelenggaraa n seleksi tingkat nasional baik secara tertulis maupun berbasis komputer\/Computer Assisted Test (CAT).",
+            "hal": "7"
+        },
+        "19": {
+            "no": "19",
+            "nama": "Honorarium Penyelenggaraan Kegiatan Pendidikan dan Pelatihan (Diklat)",
+            "deskripsi": "Honorarium yang diberikan dalam rangka penyelenggara kegiatan pendidikan dan pelatihan atau memberikan wawasan pengetahuan dan\/atau sharing experience sesuai dengan keahliannya kepada peserta kegiatan itu.",
+            "hal": "7"
+        },
+        "20": {
+            "no": "20",
+            "nama": "Honorarium Satpam, Pengemudi, Petugas Kebersihan, dan Pramubakti",
+            "deskripsi": "Honorarium yang diberikan kepada satpam, pengemudi, petugas kebersihan, dan pramubakti berdasarkan surat keputusan pejabat yang berwenang\/kontrak kerja.",
+            "hal": "7"
+        },
+        "21": {
+            "no": "21",
+            "nama": "Satuan Biaya Uang Makan bagi Pegawai ASN dan Uang Lauk Pauk bagi Prajurit TNI\/Anggota POLRI",
+            "deskripsi": "Satuan biaya yang diberikan bagi Pegawai ASN\/Prajurit TNI\/Anggota POLRI untuk kebutuhan uang makan\/lauk pauk.",
+            "hal": "7"
+        },
+        "22": {
+            "no": "22",
+            "nama": "Satuan Biaya Uang Lembur dan Uang Makan Lembur bagi Pegawai ASN",
+            "deskripsi": "Honorarium yang diberikan sebagai kompensasi bagi ASN yang melakukan kerja lembur.",
+            "hal": "7"
+        },
+        "23": {
+            "no": "23",
+            "nama": "Satuan Biaya Pengadaan Pakaian Dinas",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan pakaian dinas termasuk ongkos jahit.",
+            "hal": "7"
+        },
+        "24": {
+            "no": "24",
+            "nama": "Satuan Biaya Pengepakan dan Angkutan Barang Perjalanan Dinas Pindah Dalam Negeri",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengepakan dan angkutan barang pindahan yang diberikan kepada pejabat negara\/pegawai ASN yang dipindahtugaskan berdasarkan Keputusan pejabat yang berwenang.",
+            "hal": "7"
+        },
+        "25": {
+            "no": "25",
+            "nama": "Satuan Biaya Uang Harian dan Uang Representasi Perjalanan Dinas Dalam Negeri",
+            "deskripsi": "Satuan biaya berupa penggantian\/kompensasi biaya keperluan sehari-hari Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI\/Pihak Lain dalam menjalankan perintah perjalanan dinas di dalam negeri, serta uang representasi yang diberikan kepada pejabat negara (ketua\/wakil ketua dan anggota lembaga tinggi negara, menteri serta setingkat menteri), wakil menteri, pejabat eselon I dan pejabat eselon II yang hanya melaksanakan perjalanan dinas jabatan dalam rangka pelaksanaan tugas dan fungsi yang melekat pada jabatan, dan sesuai dengan ketentuan peraturan perundang-undangan mengenai perjalanan dinas.",
+            "hal": "8"
+        },
+        "26": {
+            "no": "26",
+            "nama": "Satuan Biaya Uang Harian Perjalanan Dinas Luar Neger i",
+            "deskripsi": "Satuan biaya berupa penggantian biaya keperluan sehari -hari Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI\/pihak lain dalam menjalankan perintah perjalanan dinas di luar negeri sesuai dengan ketentuan peraturan perundang-undangan mengenai perjalanan dinas.",
+            "hal": "8"
+        },
+        "27": {
+            "no": "27",
+            "nama": "Satuan Biaya Penginapan Perjalanan Dinas Dalam Negeri",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya menginap dalam rangka pelaksanaan perjalanan dinas dalam negeri sesuai dengan ketentuan peraturan perundang-undangan mengenai perjalanan dinas.",
+            "hal": "8"
+        },
+        "28": {
+            "no": "28",
+            "nama": "Satuan Biaya Tiket Perjalanan Dinas Pindah Luar Negeri (One Way)",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya pembelian tiket pesawat udara perjalanan dinas pindah dan diberikan untuk 1 (satu) kali jalan (one way), diberikan kepada Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI dan keluarga yang sah berdasarkan surat keputusan pindah dari pejabat yang berwenang sesuai dengan ketentuan peraturan perundang -undangan yang digunakan untuk melaksanakan perintah pindah dari perwakilan Republik Indonesia di luar negeri atau sebaliknya.",
+            "hal": "8"
+        },
+        "29": {
+            "no": "29",
+            "nama": "Satuan Biaya Rapat\/Pertemuan di Luar Kantor",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya kegiatan rapat\/pertemuan yang diselenggarakan di luar kantor dalam rangka penyelesaian pekerjaan sesuai tugas dan fungsi yang perlu dilakukan secara intensif dan bersifat koordinatif.",
+            "hal": "8"
+        },
+        "30": {
+            "no": "30",
+            "nama": "Satuan Biaya Uang Lembur dan Uang Makan Lembur bagi Pegawai Non ASN, Satpam, Pengemudi, Petugas Kebersihan, dan Pramubakti",
+            "deskripsi": "Honorarium yang diberikan sebagai kompensasi bagi Pegawai Non ASN, Satpam, Pengemudi, Petugas Kebersihan, dan Pramubakti yang melakukan kerja lembur.",
+            "hal": "8"
+        },
+        "31": {
+            "no": "31",
+            "nama": "Satuan Biaya Operasional Penyuluh",
+            "deskripsi": "Satuan Biaya yang digunakan untuk kebutuhan biaya transportasi bagi para Pegawai ASN sebagai penyuluh dalam rangka mengunjungi daerah binaannya sebagaimana dimaksud pada Undang -Undang Nomor 16 Tahun 2006 tentang Sistem Penyuluhan Pertanian, Perikanan, dan Kehutanan.",
+            "hal": "8"
+        },
+        "32": {
+            "no": "32",
+            "nama": "Satuan Biaya Operasional Khusus Kepala Perwakilan Republik Indonesia di Luar Negeri",
+            "deskripsi": "Satuan biaya dana operasional yang digunakan untuk menunjang pelaksanaan misi khusus Kepala Perwakilan Republik Indonesia di Luar Negeri dan bukan merupakan tambahan penghasilan.",
+            "hal": "8"
+        },
+        "33": {
+            "no": "33",
+            "nama": "Satuan Biaya Pengadaan Kendaraan Dinas",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan kendaraan operasional bagi pejabat, operasional kantor, dan\/atau lapangan serta bus melalui pembelian guna menunjang pelaksanaan tugas dan fungsi keme nterian negara\/lembaga.",
+            "hal": "9"
+        },
+        "34": {
+            "no": "34",
+            "nama": "Satuan Biaya Sewa Kendaraan",
+            "deskripsi": "Satuan biaya yang digunakan untuk sewa kendaraan pelaksanaan kegiatan insidentil (tidak bersifat terus-menerus) dan sewa kendaraan operasional pejabat\/Pejabat Eselon III sebagai kepala kantor\/operasional kantor dan\/atau lapangan.",
+            "hal": "9"
+        },
+        "35": {
+            "no": "35",
+            "nama": "Satuan Biaya Makanan Penambah Daya Tahan Tubuh",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan makanan\/minuman bergizi yang dapat menambah\/meningkatkan\/mempertahankan daya tahan tubuh Pegawai ASN tertentu, yaitu yang diberi tugas melaksanakan pekerjaan tugas dan fungsi kantor yang dapat berdampak buruk bagi kesehatan pegawai dimaksud.",
+            "hal": "9"
+        },
+        "36": {
+            "no": "36",
+            "nama": "Satuan Biaya Konsumsi Rapat\/Pertemuan",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan makanan dan kudapan termasuk minuman untuk rapat\/pertemuan koordinasi, maupun untuk rapat biasa.",
+            "hal": "9"
+        },
+        "37": {
+            "no": "37",
+            "nama": "Satuan Biaya Konsumsi Kegiatan Pendidikan dan Pelatihan (Diklat)",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan makanan dan kudapan termasuk minuman untuk kegiatan Pendidikan dan Pelatihan (Diklat) yang dilaksanakan secara klasikal (tatap muka).",
+            "hal": "9"
+        },
+        "38": {
+            "no": "38",
+            "nama": "Uang Harian Magang Mahasiswa",
+            "deskripsi": "Uang harian yang diberikan kepada mahasiswa level Strata 1 atau Diploma IV yang mendapatkan penugasan wajib dari perguruan tinggi untuk melaksanakan magang kerja di satuan kerja di lingkup kementerian negara\/lembaga.",
+            "hal": "9"
+        },
+        "39": {
+            "no": "39",
+            "nama": "Satuan Biaya Bantuan Biaya Pendidikan Anak (BBPA) pada Perwakilan Republik Indonesia di Luar Negeri",
+            "deskripsi": "Satuan biaya berupa bantuan biaya pendidikan anak-anak Pejabat Dinas Luar Negeri\/Home Staff\/Atase Teknis\/Atase Pertahanan yang bekerja pada Perwakilan Republik Indonesia di Luar Negeri.",
+            "hal": "9"
+        }
+    },
+    "II": {
+        "1": {
+            "no": "1",
+            "nama": "Honorarium Narasumber Pakar\/Praktisi\/Profesional",
+            "deskripsi": "Satuan biaya untuk kebutuhan narasumber pakar\/praktisi\/profesional dari luar lingkup kementerian negara\/lembaga penyelenggara yang mempunyai keahlian\/profesionalisme dalam ilmu\/bidang tertentu dalam kegiatan seminar\/rapat\/sosialisasi\/diseminasi\/workshop\/sarasehan\/simposium\/diklat\/lokakarya\/Focus Group Discussion\/kegiatan sejenis.",
+            "hal": "10"
+        },
+        "2": {
+            "no": "2",
+            "nama": "Satuan Biaya Transportasi Darat dari Ibu Kota Provinsi ke Kabupaten\/Kota dalam Provinsi yang Sama (One Way)",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya tr ansportasi darat bagi Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI\/pihak lain dari tempat kedudukan di ibu kota provinsi ke tempat tujuan di kabupaten\/kota tujuan dalam 1 (satu) provinsi yang sama atau sebaliknya dalam rangka pelaksanaan perjalanan dinas dalam negeri.",
+            "hal": "10"
+        },
+        "3": {
+            "no": "3",
+            "nama": "Satuan Biaya Transportasi dari DKI Jakarta ke Kabupaten\/Kota Sekitar (One Way)",
+            "deskripsi": "Satuan biaya kebutuhan transportasi bagi Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI\/pihak lain dari:\n• a. Daerah Khusus Jakarta ke kota sekitar; atau\n• b. kota sekitar ke Daerah Khusus Jakarta; dalam rangka pelaksanaan perjalanan dinas dalam negeri.",
+            "hal": "10"
+        },
+        "4": {
+            "no": "4",
+            "nama": "Satuan Biaya Transpor Kegiatan dalam Kabupaten\/Kota Pergi Pulang (PP)",
+            "deskripsi": "Satuan biaya untuk kebutuhan transportasi Pejabat Negara\/Pegawai ASN\/Prajurit TNI\/Anggota POLRI\/pihak lain dalam melakukan kegiatan\/pekerjaan di luar kantor dalam batas wilayah suatu kabupaten\/kota Pulang Pergi (PP) yang berkaitan dengan pelaksanaan tugas kantor\/instansi dengan ketentuan tidak menggunakan kendaraan dinas.",
+            "hal": "10"
+        },
+        "5": {
+            "no": "5",
+            "nama": "Satuan Biaya Transportasi dari dan\/atau ke Terminal Bus\/Stasiun\/Bandara\/Pelabuhan dalam rangka Perjalanan Dinas Da lam Negeri",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya satu kali perjalanan menuju\/dari terminal bus\/stasiun\/bandara\/pelabuhan keberangkatan atau dari terminal bus\/stasiun\/bandara\/pelabuhan kedatangan menuju tempat di kota tujuan kedatangan dan sebaliknya.",
+            "hal": "10"
+        },
+        "6": {
+            "no": "6",
+            "nama": "Satuan Biaya Tiket Pesawat Perjalanan Dinas Dalam Negeri Pergi Pulang (PP)",
+            "deskripsi": "Satuan biaya untuk pembelian tiket pesawat udara pergi pulang (PP) dari bandara keberangkatan suatu kota ke bandara kota tujuan.",
+            "hal": "10"
+        },
+        "7": {
+            "no": "7",
+            "nama": "Satuan Biaya Tiket Pesawat Perjalanan Dinas Luar Negeri Pergi Pulang (PP)",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya pembelian tiket pesawat udara dari bandara di Jakarta ke berbagai bandara kota tujuan di luar negeri pergi pulang (PP).",
+            "hal": "11"
+        },
+        "8": {
+            "no": "8",
+            "nama": "Satuan Biaya Pemeliharaan Sarana Kantor",
+            "deskripsi": "Satuan biaya untuk memenuhi kebutuhan dalam rangka memelihara atau mempertahankan barang inventaris kantor.",
+            "hal": "11"
+        },
+        "9": {
+            "no": "9",
+            "nama": "Satuan Biaya Pemeliharaan dan Operasional Kendaraan Dinas",
+            "deskripsi": "Satuan biaya untuk kebutuhan pemeliharaan dan operasional kendaraan dinas yang digunakan untuk mempertahankan kendaraan dinas agar tetap dalam kondisi normal dan siap pakai sesuai dengan peruntukannya.",
+            "hal": "11"
+        },
+        "10": {
+            "no": "10",
+            "nama": "Satuan Biaya Pemeliharaan Gedung\/Bangunan Dalam Negeri",
+            "deskripsi": "Satuan biaya untuk kebutuhan rutin gedung\/bangunan di dalam negeri dengan maksud menjaga\/mempertahankan gedung dan bangunan kantor di dalam negeri agar tetap dalam kondisi semula atau perbaikan dengan tingkat kerusakan kurang dari atau sama dengan 2% (dua perseratus).",
+            "hal": "11"
+        },
+        "11": {
+            "no": "11",
+            "nama": "Satuan Biaya Penerjemahan dan Pengetikan",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya jasa pihak ketiga untuk penerjemahan dan pengetikan dari naskah asli ke dalam bahasa yang diinginkan.",
+            "hal": "11"
+        },
+        "12": {
+            "no": "12",
+            "nama": "Satuan Biaya Sewa Mesin Fotokopi",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya sewa mesin fotokopi untuk menunjang pelaksanaan operasional kantor.",
+            "hal": "11"
+        },
+        "13": {
+            "no": "13",
+            "nama": "Satuan Biaya Pengadaan Bahan Makanan",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan pengadaan bahan makanan yang diberikan untuk:\n• a. Narapidana\/tahanan dan anak di Lapas\/Rutan.\n• b. Operasi Pasukan\/Latihan Pratugas\/Latihan Pasukan Lainnya Bagi Prajurit TNI\/Anggota POLRI, Dikma\/Taruna\/Karbol\/Kadet Bagi Prajurit TNI\/Anggota POLRI, Diklat Lainnya Bagi Kementerian Pertahanan (Kemhan)\/Prajurit TNI\/Anggota POLRI, Anggota yang Sakit Bagi Kemhan\/Prajurit TNI\/Anggota POLRI, Tahanan Prajurit TNI\/Anggota POLRI, dan Jaga Kawal Bagi Kemhan\/Prajurit TNI\/Anggota POLRI.\n• c. Pasien Rumah Sakit dan Penyandang Masalah Kesejahteraan Sosial (PMKS).\n• d. Keluarga Penjaga Menara Suar (PMS), Petugas Pengamatan Laut, Anak Buah Kapal (ABK) Cadangan pada Kapal Negara, ABK Aktif pada Kapal Negara, dan Petugas Stasiun Radio Pantai (SROP) dan Vessel Traffic Information Service (VTIS).\n• e. Petugas Bengkel dan Galangan Kapal Kenavigasian, Petugas Pabrik Gas Aga untuk Lampu Suar, PMS, dan Kelompok Tenaga Kesehatan Kerja Pelayaran.\n• f. Mahasiswa\/Siswa Sipil dan Mahasiswa Militer\/Semi Militer di Lingkup Sekolah Kedinasan.\n• g. Rescue Team.",
+            "hal": "11"
+        },
+        "14": {
+            "no": "14",
+            "nama": "Satuan Biaya Konsumsi Tahanan\/Deteni\/Anak Buah Kapal (ABK) Nonjustisia",
+            "deskripsi": "Satuan biaya yang digunakan untuk kebutuhan biaya pengadaan paket makanan tahanan\/deteni\/ABK nonjustisia.",
+            "hal": "12"
+        },
+        "15": {
+            "no": "15",
+            "nama": "Satuan Biaya Kebutuhan Dasar Perkantoran di Dalam Negeri",
+            "deskripsi": "Satuan biaya yang digunakan untuk memenuhi kebutuhan dasar perkantoran berupa barang habis pakai yang secara langsung menunjang penyelenggaraan operasional dan untuk memenuhi kebutuhan dasar agar suatu kantor dapat memberikan pelayanan secara optimal.",
+            "hal": "12"
+        },
+        "16": {
+            "no": "16",
+            "nama": "Satuan Biaya Penggantian Inventaris Lama dan\/atau Pemb elian Inventaris untuk Pegawai Baru",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya penggantian inventaris lama dan\/atau pembelian inventaris bagi pegawai baru.",
+            "hal": "12"
+        },
+        "17": {
+            "no": "17",
+            "nama": "Satuan Biaya Sewa Gedung Pertemuan",
+            "deskripsi": "Satuan biaya untuk kebutuhan sewa gedung pertemuan untuk pelaksanaan kegiatan di luar kantor antara lain rapat koordinasi, sosialisasi, seleksi\/ujian masuk pegawai, dan kegiatan lain sejenis.",
+            "hal": "12"
+        },
+        "18": {
+            "no": "18",
+            "nama": "Satuan Biaya Penyelenggaraan Perwakilan Republik Indonesia di Luar Negeri",
+            "deskripsi": "Satuan biaya untuk kebutuhan biaya penyelenggaraan operasional perwakilan Republik Indonesia di luar negeri.",
+            "hal": "12"
+        },
+        "19": {
+            "no": "19",
+            "nama": "Satuan Biaya Bantuan Beasiswa Program Gelar\/Nongelar Dalam Negeri",
+            "deskripsi": "Satuan biaya bantuan beasiswa program gelar\/nongelar dalam negeri merupakan satuan biaya yang digunakan untuk kebutuhan biaya bantuan mahasiswa program gelar\/nongelar dalam negeri bagi Pegawai ASN\/Prajurit TNI\/Anggota POLRI yang ditugaskan untuk melanjutkan pendidikan Diploma I, Diploma III, Diploma IV atau Strata 1 (S1), dan pendidikan Pascasarjana (Strata 2 (S2) atau Strata 3 (S3)). MENTERI KEUA NGAN REPUBLIK INDONESIA,",
+            "hal": "12"
+        }
+    }
+}
