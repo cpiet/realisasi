@@ -129,3 +129,4 @@ cp writable/database/simran.sqlite /lokasi_backup/simran_$(date +%Y%m%d).sqlite
 
 ### Restore:
 Ganti kembali file di `writable/database/simran.sqlite` dengan file backup yang diinginkan, kemudian pastikan permission file tetap dapat ditulis oleh web server.
+

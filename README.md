@@ -258,3 +258,4 @@ Proyek ini dilisensikan di bawah lisensi [MIT License](LICENSE). Bebas digunakan
 <div align="center">
   <sub>Dikembangkan dengan dedikasi untuk optimalisasi transparansi &amp; akuntabilitas anggaran Divhumas Polri.</sub>
 </div>
+

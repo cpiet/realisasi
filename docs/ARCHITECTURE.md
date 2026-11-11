@@ -124,3 +124,4 @@ Database utama disimpan dalam format SQLite pada berkas `writable/database/simra
 2. **CSRF Protection**: Token CSRF diinjeksikan ke dalam setiap formulir HTML dan diperiksa pada setiap permintaan POST/PUT/DELETE.
 3. **Password & PIN Hashing**: Menggunakan fungsi native PHP `password_hash()` dengan algoritma standard industri.
 4. **Proteksi File Writable**: Direktori `writable/` diproteksi dari akses langsung peramban menggunakan konfigurasi web server (.htaccess / Nginx rule).
+

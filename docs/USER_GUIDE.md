@@ -103,3 +103,4 @@ Modul SBM berfungsi sebagai acuan resmi standar tarif biaya perjalanan dinas, ho
 2. **Pengaturan Pagu & Target Serapan**:
    - Masuk ke menu **Pengaturan → Pagu Anggaran**.
    - Sesuaikan target serapan per triwulan (Triwulan I, II, III, dan IV) sesuai target DIPA kementerian/lembaga.
+
