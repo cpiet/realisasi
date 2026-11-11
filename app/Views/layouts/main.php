@@ -270,6 +270,13 @@
                   </li>
                   <li><hr class="dropdown-divider"></li>
                   <li>
+                    <a class="dropdown-item <?= (uri_string() === 'akun' || str_starts_with(uri_string(), 'akun/')) ? 'active' : '' ?>" href="<?= base_url('akun' . $yParam) ?>">
+                      <div class="fw-semibold"><i class="bi bi-journal-code me-2 text-info"></i> Kamus Kode Akun Belanja</div>
+                      <div class="small text-muted ps-4">Modul 46 akun BAS &amp; kasus Divhumas</div>
+                    </a>
+                  </li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li>
                     <a class="dropdown-item <?= str_starts_with(uri_string(), 'admin/sbm') ? 'active' : '' ?>" href="<?= base_url('admin/sbm' . $yParam) ?>">
                       <div class="fw-semibold"><i class="bi bi-gear-wide-connected me-2 text-secondary"></i> Kelola Regulasi SBM</div>
                       <div class="small text-muted ps-4">Input regulasi PMK &amp; patokan tarif baru</div>
@@ -283,6 +290,12 @@
                 <span>Standar Biaya SBM</span>
               </a>
             <?php endif; ?>
+
+            <!-- 6. Kamus Kode Akun Belanja (Modul RKAKL) -->
+            <a href="<?= base_url('akun' . $yParam) ?>" class="nav-link <?= uri_string() === 'akun' || str_starts_with(uri_string(), 'akun/') ? 'active' : '' ?>">
+              <i class="bi bi-journal-code"></i>
+              <span>Kamus Akun</span>
+            </a>
 
             <!-- 6. Sistem / Pengaturan (Khusus Admin) -->
             <?php if ($isAdmin): ?>

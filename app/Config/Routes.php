@@ -16,6 +16,12 @@ $routes->get('sbm', 'Sbm::index');
 $routes->get('sbm/cari', 'Sbm::cari');
 $routes->get('sbm/item/(:num)', 'Sbm::item/$1');
 
+// Kamus Kode Akun Belanja (Modul Belajar RKAKL TA 2027 Divhumas Polri)
+$routes->get('akun', 'AccountCodes::index');
+$routes->get('akun/api/search', 'AccountCodes::apiSearch');
+$routes->get('akun/(:segment)', 'AccountCodes::detail/$1');
+$routes->get('kamus-akun', 'AccountCodes::index');
+
 // Data Kegiatan & Uraian Kegiatan (Akses Khusus: Administrator & Operator)
 $routes->get('kegiatan', 'Activities::index', ['filter' => ['auth', 'role:admin,operator']]);
 $routes->get('kegiatan/detail/(:num)', 'Activities::detail/$1', ['filter' => ['auth', 'role:admin,operator']]);

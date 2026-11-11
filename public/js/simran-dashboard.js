@@ -175,30 +175,56 @@ document.addEventListener('DOMContentLoaded', function () {
 
             searchDebounce = setTimeout(function () {
                 const yearParam = window.simranCurrentYear ? '&year=' + encodeURIComponent(window.simranCurrentYear) : '';
-                fetch((window.simranBaseUrl || '') + '/api/kegiatan/search?q=' + encodeURIComponent(query) + yearParam)
-                    .then(res => res.json())
-                    .then(res => {
-                        if (res.status === 'success' && res.results.length > 0) {
-                            let html = '';
-                            res.results.forEach(item => {
-                                html += `<div class="search-item" onclick="openActivityDetail(${item.id})">
-                                    <div class="d-flex justify-content-between">
-                                        <span class="code">${item.account_code || ''}</span>
-                                        <span class="text-muted" style="font-size:11.5px">${window.fmtM(item.final_ceiling)}</span>
-                                    </div>
-                                    <div class="desc text-truncate">${item.description || item.activity_name || ''}</div>
-                                </div>`;
-                            });
-                            searchResults.innerHTML = html;
-                            searchResults.style.display = 'block';
-                        } else {
-                            searchResults.innerHTML = '<div class="p-3 text-muted text-center" style="font-size:12.5px">Tidak ditemukan kegiatan yang cocok.</div>';
-                            searchResults.style.display = 'block';
-                        }
-                    })
-                    .catch(() => {
-                        searchResults.style.display = 'none';
-                    });
+                const base = window.simranBaseUrl || '';
+
+                Promise.all([
+                    fetch(base + '/api/kegiatan/search?q=' + encodeURIComponent(query) + yearParam).then(r => r.json()).catch(() => ({ status: 'error', results: [] })),
+                    fetch(base + '/akun/api/search?q=' + encodeURIComponent(query)).then(r => r.json()).catch(() => ({ success: false, data: [] }))
+                ]).then(([kegiatanRes, akunRes]) => {
+                    let html = '';
+                    let hasItems = false;
+
+                    // 1. Akun Modul BAS
+                    if (akunRes.success && akunRes.data && akunRes.data.length > 0) {
+                        hasItems = true;
+                        html += '<div class="px-3 py-2 bg-light border-bottom text-uppercase text-muted fw-bold" style="font-size:10.5px; letter-spacing:0.5px;"><i class="bi bi-journal-code text-primary me-1"></i> Kamus Akun Belanja (BAS)</div>';
+                        akunRes.data.slice(0, 3).forEach(acc => {
+                            html += `<div class="search-item" onclick="window.location.href='${base}/akun/${acc.kode}'">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="code font-monospace fw-bold text-primary">${acc.kode}</span>
+                                    <span class="badge bg-secondary bg-opacity-10 text-secondary border" style="font-size:10px">${acc.kelompok}</span>
+                                </div>
+                                <div class="desc text-truncate fw-semibold">${acc.uraian}</div>
+                                <div class="small text-muted text-truncate" style="font-size:11px">${acc.penjelasan}</div>
+                            </div>`;
+                        });
+                    }
+
+                    // 2. Kegiatan DIPA
+                    if (kegiatanRes.status === 'success' && kegiatanRes.results && kegiatanRes.results.length > 0) {
+                        hasItems = true;
+                        html += '<div class="px-3 py-2 bg-light border-bottom text-uppercase text-muted fw-bold" style="font-size:10.5px; letter-spacing:0.5px;"><i class="bi bi-grid-3x3-gap-fill text-success me-1"></i> Kegiatan &amp; Realisasi DIPA</div>';
+                        kegiatanRes.results.slice(0, 5).forEach(item => {
+                            html += `<div class="search-item" onclick="openActivityDetail(${item.id})">
+                                <div class="d-flex justify-content-between">
+                                    <span class="code">${item.account_code || ''}</span>
+                                    <span class="text-muted" style="font-size:11.5px">${window.fmtM ? window.fmtM(item.final_ceiling) : ''}</span>
+                                </div>
+                                <div class="desc text-truncate">${item.description || item.activity_name || ''}</div>
+                            </div>`;
+                        });
+                    }
+
+                    if (hasItems) {
+                        searchResults.innerHTML = html;
+                        searchResults.style.display = 'block';
+                    } else {
+                        searchResults.innerHTML = '<div class="p-3 text-muted text-center" style="font-size:12.5px">Tidak ditemukan kegiatan atau kode akun yang cocok.</div>';
+                        searchResults.style.display = 'block';
+                    }
+                }).catch(() => {
+                    searchResults.style.display = 'none';
+                });
             }, 250);
         });
 

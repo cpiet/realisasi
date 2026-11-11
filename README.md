@@ -82,6 +82,13 @@ Aplikasi ini telah dioptimalkan untuk performa tinggi dengan arsitektur **Zero-C
 - **Quick Search Pill (⌘K / Ctrl+K)**: Pintasan keyboard untuk pencarian instan kegiatan, akun, atau regulasi.
 - **Offline First Assets**: Library CSS & JS (Bootstrap 5.3, Chart.js) tersimpan lokal dalam folder `public/`, sehingga tetap cepat dan tidak bergantung pada CDN publik.
 
+### 9. 📖 Kamus Kode Akun Belanja (Modul RKAKL TA 2027)
+- **Katalog 46 Kode Akun BAS**: Dilengkapi fungsi peruntukan, batasan pembeda, kesalahan umum, dan batas nilai kapitalisasi aset (PMK 181/PMK.06/2016 Pasal 40).
+- **Live Search & Autocomplete**: Ketik 6 digit kode akun (misal: `521211`, `524114`, `532111`) langsung menampilkan kartu rincian interaktif.
+- **Tabel Komparasi Kesalahan Sering Terjadi**: Perbandingan langsung akun yang sering tertukar (Sewa, Bahan vs Persediaan, Honor Pengelola vs Output, Renovasi Gedung, Paket Meeting).
+- **15 Studi Kasus Riil Divhumas Polri**: Skenario nyata operasional Bagrenmin, Biro Penmas, Biro Multimedia, dan Biro PID.
+- **10 Soal Kuis Interaktif**: Uji pemahaman kode akun bagi operator dan staf perencana dengan penilaian instan dan pembahasan.
+
 ---
 
 ## 🛠 Teknologi yang Digunakan

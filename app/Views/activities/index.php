@@ -108,7 +108,13 @@
             <tr style="cursor: pointer;" onclick="openActivityDetail(<?= $it['id'] ?>)">
               <!-- Kode Akun -->
               <td data-label="Kode & Akun" style="text-align: left;">
-                <span class="badge bg-light text-dark border font-monospace" style="font-size: 12px;"><?= esc($it['account_code'] ?: '—') ?></span>
+                <?php if (!empty($it['account_code']) && strlen($it['account_code']) >= 5): ?>
+                  <a href="<?= base_url('akun/' . esc($it['account_code'])) ?>" target="_blank" onclick="event.stopPropagation();" class="badge bg-light text-primary border font-monospace text-decoration-none hover-shadow" title="Klik untuk melihat penjelasan akun di Kamus BAS" style="font-size: 12px;">
+                    <i class="bi bi-book me-1"></i><?= esc($it['account_code']) ?>
+                  </a>
+                <?php else: ?>
+                  <span class="badge bg-light text-dark border font-monospace" style="font-size: 12px;"><?= esc($it['account_code'] ?: '—') ?></span>
+                <?php endif; ?>
                 <div class="small text-muted mt-1" style="font-size: 11.5px;"><?= esc($it['budget_type_name'] ?? '') ?></div>
               </td>
 

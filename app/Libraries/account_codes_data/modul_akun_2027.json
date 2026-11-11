@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "title": "MODUL BELAJAR KODE AKUN BELANJA",
+    "sub_title": "RKAKL TA 2027 – Divhumas Polri (Kode Satker 642321)",
+    "description": "Matriks, penjelasan, batasan pembeda, kesalahan umum, contoh kasus riil Divhumas Polri, dan latihan.",
+    "version": "Versi Revisi [Rev]",
+    "dasar_kodefikasi": "KEP-331/PB/2021 dan KEP-291/PB/2022",
+    "pembanding": "Penjelasan Penggunaan Kode Akun DJPb (07)",
+    "batas_kapitalisasi": "PMK 181/PMK.06/2016 Pasal 40 (Peralatan & Mesin ≥ Rp1 Juta, Gedung & Bangunan ≥ Rp25 Juta)"
+  },
+  "groups": [
+    {
+      "code": "5211",
+      "name": "Belanja Barang Operasional",
+      "desc": "Keperluan sehari-hari operasional satker (perkantoran, konsumsi, daya tahan tubuh, honor operasional, langganan pos pusat)"
+    },
+    {
+      "code": "5212",
+      "name": "Belanja Barang Non-Operasional",
+      "desc": "Pendukung kegiatan output (bahan, transito, honor output kegiatan, rugi selisih kurs, non-operasional lainnya)"
+    },
+    {
+      "code": "5218",
+      "name": "Belanja Barang Persediaan",
+      "desc": "Barang konsumsi/habis pakai yang direncanakan berkelanjutan dicatat sebagai persediaan"
+    },
+    {
+      "code": "5221",
+      "name": "Belanja Jasa",
+      "desc": "Langganan daya & jasa (listrik, telepon, air, internet), pos giro, konsultan, sewa, jasa profesi/narasumber, jasa lainnya"
+    },
+    {
+      "code": "5231",
+      "name": "Belanja Pemeliharaan",
+      "desc": "Perawatan/perbaikan aset gedung, peralatan mesin, jalan jembatan, irigasi, dan jaringan agar kondisi normal"
+    },
+    {
+      "code": "5241",
+      "name": "Belanja Perjalanan Dinas",
+      "desc": "Perjalanan dinas jabatan biasa, tetap, dalam kota, paket meeting dalam kota dan luar kota"
+    },
+    {
+      "code": "53",
+      "name": "Belanja Modal",
+      "desc": "Pengadaan atau penambahan nilai peralatan/mesin, gedung/bangunan, dan aset tetap lainnya yang memenuhi batas kapitalisasi"
+    },
+    {
+      "code": "526",
+      "name": "Bantuan Pemerintah",
+      "desc": "Belanja barang untuk diserahkan kepada masyarakat atau pemerintah daerah"
+    },
+    {
+      "code": "57",
+      "name": "Belanja Bantuan Sosial",
+      "desc": "Bantuan sosial rehabilitasi, jaminan, pemberdayaan, dan penanggulangan kemiskinan/bencana"
+    }
+  ],
+  "accounts": [
+    {
+      "no": 1,
+      "kode": "521111",
+      "uraian": "Belanja Keperluan Perkantoran",
+      "kelompok": "5211 Operasional",
+      "status": "Aktif",
+      "penjelasan": "Keperluan harian perkantoran yang menunjang operasional dan tidak menghasilkan persediaan. Terkait jumlah pegawai: langganan surat kabar, minum/makanan kecil rapat, penerimaan tamu, alat tulis. Tidak terkait jumlah pegawai: satpam, cleaning service, sopir, tenaga lepas kontraktual, telex, internet, PBB, meterai, buku cek/giro, pengurusan sertifikat hilang.",
+      "batasan": "Layanan berlangganan tetap dicatat di 522119 bila penyedia menganggap Anda pelanggan tetap. Internet tidak terdaftar pelanggan tetap masuk 521111.",
+      "kesalahan_umum": "Langganan tetap dicatat di 521111 padahal seharusnya 522119.",
+      "contoh_divhumas": "Galon air dan teh untuk rapat internal Bagrenmin; langganan koran harian untuk ruang kerja; meterai untuk surat dinas.",
+      "sumber": "07, 521111"
+    },
+    {
+      "no": 2,
+      "kode": "521112",
+      "uraian": "Belanja Pengadaan Bahan Makanan",
+      "kelompok": "5211 Operasional",
+      "status": "[Rev] Contoh K/L dihapus",
+      "penjelasan": "Pengadaan bahan makanan operasional.",
+      "batasan": "Dipakai untuk konsumsi umum kegiatan jika K/L mengatur akun ini.",
+      "kesalahan_umum": "Dicatat untuk konsumsi rapat umum (seharusnya 521111 atau 521211).",
+      "contoh_divhumas": "Bahan makanan untuk konsumsi umum kegiatan, hanya bila K/L mengatur akun ini.",
+      "sumber": "07, 521112"
+    },
+    {
+      "no": 3,
+      "kode": "521113",
+      "uraian": "Belanja Penambah Daya Tahan Tubuh",
+      "kelompok": "5211 Operasional",
+      "status": "Aktif",
+      "penjelasan": "Makanan, minuman, obat-obatan/suplemen untuk pegawai dalam menunjang kegiatan operasional di lapangan atau kondisi kerja tertentu.",
+      "batasan": "Diberikan khusus kepada pegawai. Jika diberikan kepada peserta kegiatan luar masuk 521211.",
+      "kesalahan_umum": "Dipakai untuk peserta kegiatan umum (seharusnya 521211).",
+      "contoh_divhumas": "Vitamin atau obat-obatan/suplemen untuk pegawai Divhumas yang bertugas operasional di lapangan.",
+      "sumber": "07, 521113"
+    },
+    {
+      "no": 4,
+      "kode": "521114",
+      "uraian": "Belanja Pengiriman Surat Dinas Pos Pusat",
+      "kelompok": "5211 Operasional",
+      "status": "Aktif",
+      "penjelasan": "Pengiriman surat menyurat dalam rangka kedinasan yang dibayar melalui Pos Pusat.",
+      "batasan": "Via pos resmi. Jasa kurir swasta berkontrak dicatat di 522191.",
+      "kesalahan_umum": "Pengiriman via kurir swasta dicatat di sini (seharusnya 522191).",
+      "contoh_divhumas": "Pengiriman surat dinas Divhumas melalui kantor pos pusat.",
+      "sumber": "07, 521114"
+    },
+    {
+      "no": 5,
+      "kode": "521115",
+      "uraian": "Belanja Honor Operasional Satker",
+      "kelompok": "5211 Operasional",
+      "status": "[Rev] Daftar honor disesuaikan 07",
+      "penjelasan": "Honor tidak tetap terkait operasional satker yang dibayar terus-menerus dari awal sampai akhir tahun anggaran: KPA, PPK, Pejabat Penguji SPP/Penandatangan SPM, Bendahara Pengeluaran/pemegang uang muka, Staf Pengelola Keuangan, Pengelola PNBP, Tim SAI.",
+      "batasan": "Terus-menerus sepanjang tahun (bukan insidentil). Honor pejabat/panitia pengadaan serta PPHP dicatat di 521213.",
+      "kesalahan_umum": "Honor pejabat dan panitia pengadaan dicatat di 521115 (salah, seharusnya 521213).",
+      "contoh_divhumas": "Honor bulanan PPK dan Bendahara Pengeluaran Bagrenmin yang dibayar sepanjang tahun anggaran.",
+      "sumber": "07, 521115 dan 521213"
+    },
+    {
+      "no": 6,
+      "kode": "521119",
+      "uraian": "Belanja Barang Operasional Lainnya",
+      "kelompok": "5211 Operasional",
+      "status": "[Rev] Bantuan transport ditambahkan",
+      "penjelasan": "Pengadaan barang yang tidak dapat ditampung di 521111–521115 dalam rangka kegiatan operasional dan tidak menghasilkan persediaan. Dapat digunakan untuk bantuan transport dalam kota dalam rangka kegiatan operasional satker. Jasa pindah kantor tanpa pihak ketiga.",
+      "batasan": "Akun sisa/penampung; cek 521111 dan 521115 terlebih dahulu.",
+      "kesalahan_umum": "Jasa pindah kantor dengan pihak ketiga dicatat di sini (seharusnya 522191).",
+      "contoh_divhumas": "Bantuan transport dalam kota untuk pegawai yang ditugaskan ke lokasi operasional satker.",
+      "sumber": "07, 521119"
+    },
+    {
+      "no": 7,
+      "kode": "521131",
+      "uraian": "Belanja Barang Operasional – Penanganan Pandemi COVID-19",
+      "kelompok": "5211 Operasional",
+      "status": "Tidak digunakan lagi (Dihimbau)",
+      "penjelasan": "Belanja barang operasional terkait penanganan COVID-19.",
+      "batasan": "Tidak digunakan lagi untuk penganggaran baru.",
+      "kesalahan_umum": "Masih tercantum di beberapa RKA lama.",
+      "contoh_divhumas": "Tidak digunakan lagi.",
+      "sumber": "KEP-331/PB/2021"
+    },
+    {
+      "no": 8,
+      "kode": "521211",
+      "uraian": "Belanja Bahan",
+      "kelompok": "5212 Non-Operasional",
+      "status": "Aktif",
+      "penjelasan": "Bahan pendukung kegiatan yang habis dipakai: ATK, konsumsi/bahan makanan, bahan cetakan, dokumentasi, spanduk, fotokopi, untuk dies natalis, pameran, seminar, sosialisasi, rapat, diseminasi, dan kegiatan lain terkait langsung dengan output.",
+      "batasan": "Barang yang direncanakan habis dalam satu kegiatan. Pembeda dari 521811 adalah niat awal RKAKL, bukan wujud fisik barang.",
+      "kesalahan_umum": "Seminar kit untuk satu kegiatan dicatat di 521811 (salah, seharusnya 521211).",
+      "contoh_divhumas": "Spanduk, map, pulpen, dan sertifikat untuk sosialisasi satu hari Biro Penmas.",
+      "sumber": "07, 521211"
+    },
+    {
+      "no": 9,
+      "kode": "521212",
+      "uraian": "Belanja Barang Transito",
+      "kelompok": "5212 Non-Operasional",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Pengeluaran pada satker baru/UPT, satker yang dilikuidasi, atau satker yang tidak melekat pada Bagian Anggaran, dan dapat digunakan satker lain dengan persetujuan Menkeu.",
+      "batasan": "Hanya untuk kondisi satker transito tertentu.",
+      "kesalahan_umum": "Digunakan pada satker reguler yang sudah definitif.",
+      "contoh_divhumas": "Belanja satker UPT baru yang belum melekat pada Bagian Anggaran.",
+      "sumber": "07, 521212"
+    },
+    {
+      "no": 10,
+      "kode": "521213",
+      "uraian": "Belanja Honor Output Kegiatan",
+      "kelompok": "5212 Non-Operasional",
+      "status": "[Rev] Honor pengadaan ditambahkan",
+      "penjelasan": "Honor tidak tetap kepada pegawai yang melaksanakan kegiatan terkait output: pelaksana penelitian, penyuluh non-PNS, tim pelaksana kegiatan (pengarah, penanggung jawab, koordinator, ketua, sekretaris, anggota, staf sekretariat). Juga honor Pejabat Pengadaan Barang/Jasa, Panitia Pengadaan, dan PPHP untuk pengadaan yang tidak menghasilkan aset tetap/aset lainnya.",
+      "batasan": "Insidentil, tidak terus-menerus dalam satu tahun. Honor pengelola operasional dicatat di 521115. Narasumber dicatat di 522151.",
+      "kesalahan_umum": "Honor pengelola operasional satker dicatat di 521213 (salah, seharusnya 521115).",
+      "contoh_divhumas": "Honor juri dan tim pelaksana lomba konten kreatif Biro PID; honor panitia pengadaan LED Outdoor.",
+      "sumber": "07, 521213"
+    },
+    {
+      "no": 11,
+      "kode": "521214",
+      "uraian": "Belanja Karena Rugi Selisih Kurs Uang Persediaan",
+      "kelompok": "5212 Non-Operasional",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Kerugian selisih kurs uang persediaan pada Satker Perwakilan RI di luar negeri dan Atase Teknis.",
+      "batasan": "Hanya untuk satker perwakilan luar negeri dan atase teknis.",
+      "kesalahan_umum": "Dicatat di satker domestik/dalam negeri.",
+      "contoh_divhumas": "Kerugian kurs UP satker perwakilan luar negeri (tidak relevan untuk Divhumas domestik).",
+      "sumber": "07, 521214"
+    },
+    {
+      "no": 12,
+      "kode": "521219",
+      "uraian": "Belanja Barang Non Operasional Lainnya",
+      "kelompok": "5212 Non-Operasional",
+      "status": "Aktif",
+      "penjelasan": "Pengeluaran yang tidak dapat ditampung di 521211–521214. Dapat digunakan untuk biaya crash program.",
+      "batasan": "Dipakai hanya setelah memastikan tidak masuk akun spesifik (521211–521214).",
+      "kesalahan_umum": "Beasiswa pegawai dicatat di sini (telah dihapus dari modul, tidak ada di 07).",
+      "contoh_divhumas": "Biaya crash program pelatihan kilat keterampilan konten media.",
+      "sumber": "07, 521219"
+    },
+    {
+      "no": 13,
+      "kode": "521241",
+      "uraian": "Belanja Barang Non-Operasional – Penanganan COVID-19",
+      "kelompok": "5212 Non-Operasional",
+      "status": "Tidak digunakan lagi",
+      "penjelasan": "Belanja barang non-operasional terkait penanganan COVID-19.",
+      "batasan": "Tidak digunakan lagi.",
+      "kesalahan_umum": "Masih tercantum di draf rencana lama.",
+      "contoh_divhumas": "Tidak digunakan lagi.",
+      "sumber": "KEP-331/PB/2021"
+    },
+    {
+      "no": 14,
+      "kode": "521811",
+      "uraian": "Belanja Barang Persediaan Barang Konsumsi",
+      "kelompok": "5218 Persediaan",
+      "status": "[Verifikasi] Slide DJPb",
+      "penjelasan": "Barang habis pakai yang direncanakan berkelanjutan dan dicatat sebagai persediaan di aplikasi persediaan/SAKTI.",
+      "batasan": "Syarat: perencanaan awal bersifat kontinu sepanjang tahun, bukan hanya untuk satu kali kegiatan. Pembeda dari 521211 adalah niat RKAKL.",
+      "kesalahan_umum": "Seminar kit untuk satu kali kegiatan dicatat di 521811 (salah, seharusnya 521211).",
+      "contoh_divhumas": "Stok kertas cetak dan tinta printer untuk kebutuhan berkelanjutan kantor sepanjang tahun anggaran.",
+      "sumber": "Slide DJPb (KEP-331/PB/2021)"
+    },
+    {
+      "no": 15,
+      "kode": "522111",
+      "uraian": "Belanja Langganan Listrik",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Sumber: 07",
+      "penjelasan": "Pembayaran langganan listrik bulanan, termasuk denda atas keterlambatan pembayaran.",
+      "batasan": "Pelanggan tetap penyedia jasa (PLN).",
+      "kesalahan_umum": "Dicatat di keperluan perkantoran 521111.",
+      "contoh_divhumas": "Tagihan listrik bulanan gedung kantor Divhumas, termasuk denda keterlambatan jika ada.",
+      "sumber": "07, 522111"
+    },
+    {
+      "no": 16,
+      "kode": "522112",
+      "uraian": "Belanja Langganan Telepon",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Sumber: 07",
+      "penjelasan": "Pembayaran langganan telepon kantor bulanan, termasuk denda atas keterlambatan pembayaran.",
+      "batasan": "Pelanggan tetap penyedia jasa telekomunikasi.",
+      "kesalahan_umum": "Pulsa insidentil pegawai dicatat di sini (pulsa operasional diatur tersendiri).",
+      "contoh_divhumas": "Tagihan telepon kabel kantor Divhumas.",
+      "sumber": "07, 522112"
+    },
+    {
+      "no": 17,
+      "kode": "522113",
+      "uraian": "Belanja Langganan Air",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Sumber: 07",
+      "penjelasan": "Pembayaran langganan air PDAM, termasuk denda atas keterlambatan pembayaran.",
+      "batasan": "Pelanggan tetap penyedia air minum/PDAM.",
+      "kesalahan_umum": "Beli air galon dicatat di sini (galon rapat/kantor masuk 521111).",
+      "contoh_divhumas": "Tagihan air PAM gedung kantor Divhumas.",
+      "sumber": "07, 522113"
+    },
+    {
+      "no": 18,
+      "kode": "522119",
+      "uraian": "Belanja Langganan Daya dan Jasa Lainnya",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Sumber: 07; FAQ DJPb",
+      "penjelasan": "Langganan daya dan jasa lainnya (misal internet kontrak), termasuk denda keterlambatan.",
+      "batasan": "Harus terdaftar sebagai pelanggan tetap penyedia jasa. Internet tidak terdaftar pelanggan tetap dicatat di 521111.",
+      "kesalahan_umum": "Internet kontrak satu tahun dicatat di 521111 (salah).",
+      "contoh_divhumas": "Internet kontrak satu tahun dari penyedia/provider yang tercatat sebagai pelanggan tetap kantor.",
+      "sumber": "07, 522119; FAQ DJPb"
+    },
+    {
+      "no": 19,
+      "kode": "522121",
+      "uraian": "Belanja Jasa Pos dan Giro",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Jasa perbendaharaan yang dilaksanakan oleh kantor pos di seluruh Indonesia.",
+      "batasan": "Layanan perbendaharaan pos/giro.",
+      "kesalahan_umum": "Kirim surat biasa dicatat di sini (kirim surat dinas pos pusat masuk 521114).",
+      "contoh_divhumas": "Jasa kantor pos untuk layanan pembayaran perbendaharaan.",
+      "sumber": "07, 522121"
+    },
+    {
+      "no": 20,
+      "kode": "522131",
+      "uraian": "Belanja Jasa Konsultan",
+      "kelompok": "5221 Jasa",
+      "status": "Aktif",
+      "penjelasan": "Jasa konsultan secara kontraktual, termasuk jasa pengacara/hukum, yang outputnya tidak menghasilkan aset lainnya.",
+      "batasan": "Keahlian tertentu, mengutamakan olah pikir/brainware.",
+      "kesalahan_umum": "Honor narasumber seminar dicatat di sini (seharusnya 522151).",
+      "contoh_divhumas": "Jasa konsultan penyusunan kajian kebijakan komunikasi publik (olah pikir).",
+      "sumber": "07, 522131"
+    },
+    {
+      "no": 21,
+      "kode": "522141",
+      "uraian": "Belanja Sewa",
+      "kelompok": "5221 Jasa",
+      "status": "Aktif",
+      "penjelasan": "Pembayaran sewa kantor, gedung, ruangan, kendaraan, atau aset lainnya secara kontraktual.",
+      "batasan": "Pembayaran sewa kontraktual (bukan beli aset, bukan paket meeting hotel).",
+      "kesalahan_umum": "Sewa ruang/kendaraan dicatat di 521111 atau 522191 (salah).",
+      "contoh_divhumas": "Sewa ruang studio tiga bulan untuk Biro Multimedia; sewa kendaraan operasional untuk peliputan kegiatan lapangan.",
+      "sumber": "07, 522141"
+    },
+    {
+      "no": 22,
+      "kode": "522151",
+      "uraian": "Belanja Jasa Profesi",
+      "kelompok": "5221 Jasa",
+      "status": "[Rev] Syarat narasumber PNS",
+      "penjelasan": "Honorarium narasumber/pembicara/praktisi/pakar kepada pegawai negeri dan non-PNS yang memberi informasi/pengetahuan kepada pegawai atau masyarakat.",
+      "batasan": "Narasumber/pakar, bukan pengelola. Honor narasumber PNS hanya dapat diberikan jika narasumber berasal dari luar lingkup unit eselon I penyelenggara, atau peserta sasaran utamanya berasal dari luar lingkup tersebut/masyarakat.",
+      "kesalahan_umum": "Honor narasumber PNS dari lingkup internal eselon I sendiri untuk peserta internal dicatat di sini (tidak memenuhi syarat).",
+      "contoh_divhumas": "Honorarium dosen/ahli komunikasi publik sebagai narasumber webinar publik Biro Penmas.",
+      "sumber": "07, 522151"
+    },
+    {
+      "no": 23,
+      "kode": "522191",
+      "uraian": "Belanja Jasa Lainnya",
+      "kelompok": "5221 Jasa",
+      "status": "Aktif",
+      "penjelasan": "Jasa yang tidak dapat ditampung di 52211–52215, membutuhkan keterampilan (skillware), misalnya jasa ekspedisi pihak ketiga, jasa publikasi/media.",
+      "batasan": "Selain konsultansi, konstruksi, dan pengadaan barang.",
+      "kesalahan_umum": "Pindah kantor tanpa pihak ketiga dicatat di sini (seharusnya 521119).",
+      "contoh_divhumas": "Jasa ekspedisi pihak ketiga untuk mengirim perangkat pameran ke polda jajaran.",
+      "sumber": "07, 522191"
+    },
+    {
+      "no": 24,
+      "kode": "522192",
+      "uraian": "Belanja Jasa – Penanganan Pandemi COVID-19",
+      "kelompok": "5221 Jasa",
+      "status": "Tidak digunakan lagi",
+      "penjelasan": "Belanja jasa terkait COVID-19.",
+      "batasan": "Tidak digunakan lagi.",
+      "kesalahan_umum": "Masih tercantum di rencana kerja.",
+      "contoh_divhumas": "Tidak digunakan lagi.",
+      "sumber": "KEP-331/PB/2021"
+    },
+    {
+      "no": 25,
+      "kode": "523111",
+      "uraian": "Belanja Pemeliharaan Gedung dan Bangunan",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Dasar batas Rp25 juta",
+      "penjelasan": "Pemeliharaan/perbaikan gedung kantor agar kondisi normal (kerusakan ≤2%), termasuk pemeliharaan halaman/taman gedung. Termasuk perbaikan paving blok dan sekat/partisi yang hanya mempertahankan fungsi.",
+      "batasan": "Nilai di bawah Rp25 juta (PMK 181/PMK.06/2016 Pasal 40) dan tidak menambah kapasitas/masa manfaat gedung.",
+      "kesalahan_umum": "Pekerjaan yang menambah kapasitas ruang dicatat di sini padahal nilainya di atas Rp25 juta (seharusnya 533121).",
+      "contoh_divhumas": "Perbaikan kebocoran atap atau pengecatan ulang ruang kantor senilai Rp15 juta untuk merawat kondisi ruangan.",
+      "sumber": "07, 523111"
+    },
+    {
+      "no": 26,
+      "kode": "523112",
+      "uraian": "Belanja Barang Persediaan Pemeliharaan Gedung dan Bangunan",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Verifikasi] Slide DJPb",
+      "penjelasan": "Pemeliharaan gedung dan bangunan yang menghasilkan persediaan material/stok suku cadang pemeliharaan.",
+      "batasan": "Kondisi normal, tidak memenuhi kriteria kapitalisasi.",
+      "kesalahan_umum": "Langsung dibebankan habis pakai saat dibeli dalam jumlah stok besar.",
+      "contoh_divhumas": "Stok cat, paku, dan semen untuk perawatan gedung yang berkelanjutan.",
+      "sumber": "Slide DJPb"
+    },
+    {
+      "no": 27,
+      "kode": "523119",
+      "uraian": "Belanja Pemeliharaan Gedung dan Bangunan Lainnya",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Pemeliharaan rumah dinas, rumah jabatan, asrama, aula yang terpisah dari gedung kantor, gedung kesenian, museum beserta isinya, termasuk taman dan pagar, agar berada dalam kondisi normal.",
+      "batasan": "Berkaitan dengan fasilitas tugas pejabat atau bangunan terpisah non-kantor utama.",
+      "kesalahan_umum": "Gedung kantor utama dicatat di sini (seharusnya 523111).",
+      "contoh_divhumas": "Perawatan taman dan pagar aula yang terpisah dari gedung kantor utama.",
+      "sumber": "07, 523119"
+    },
+    {
+      "no": 28,
+      "kode": "523121",
+      "uraian": "Belanja Pemeliharaan Peralatan dan Mesin",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Dasar batas Rp1 juta",
+      "penjelasan": "Pemeliharaan/perbaikan untuk mempertahankan peralatan dan mesin kantor agar kondisi normal.",
+      "batasan": "Biaya perbaikan tidak memenuhi kriteria kapitalisasi (≤ Rp1 juta per satuan atau tidak memperpanjang masa manfaat, PMK 181/PMK.06/2016 Pasal 40).",
+      "kesalahan_umum": "Penggantian suku cadang besar yang menambah fungsi/kapasitas di atas batas kapitalisasi dicatat di sini.",
+      "contoh_divhumas": "Servis AC kantor atau perbaikan printer senilai Rp500 ribu.",
+      "sumber": "07, 523121"
+    },
+    {
+      "no": 29,
+      "kode": "523129",
+      "uraian": "Belanja Pemeliharaan Peralatan dan Mesin Lainnya",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Pemeliharaan/perbaikan peralatan dan mesin lainnya agar kondisi normal yang tidak memenuhi kriteria kapitalisasi.",
+      "batasan": "Peralatan khusus selain peralatan kantor standar.",
+      "kesalahan_umum": "Perawatan mesin kantor umum dicatat di sini (seharusnya 523121).",
+      "contoh_divhumas": "Perbaikan mesin genset kantor di bawah batas kapitalisasi.",
+      "sumber": "07, 523129"
+    },
+    {
+      "no": 30,
+      "kode": "523131",
+      "uraian": "Belanja Pemeliharaan Jalan dan Jembatan",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Dipisah dari 523199",
+      "penjelasan": "Pemeliharaan/perbaikan untuk mempertahankan jalan dan jembatan agar kondisi normal, nilainya tidak memenuhi kriteria kapitalisasi.",
+      "batasan": "Bukan untuk pembuatan/peningkatan jalan yang memenuhi kriteria kapitalisasi.",
+      "kesalahan_umum": "Dicatat di 523199 (salah).",
+      "contoh_divhumas": "Perbaikan jalan akses di kompleks perkantoran yang tidak memenuhi kriteria kapitalisasi.",
+      "sumber": "07, 523131"
+    },
+    {
+      "no": 31,
+      "kode": "523132",
+      "uraian": "Belanja Pemeliharaan Irigasi",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Dipisah dari 523199",
+      "penjelasan": "Pemeliharaan/perbaikan untuk mempertahankan saluran irigasi/drainase agar kondisi normal.",
+      "batasan": "Nilainya tidak memenuhi kriteria kapitalisasi.",
+      "kesalahan_umum": "Dicatat di 523199 (salah).",
+      "contoh_divhumas": "Perbaikan saluran drainase/irigasi di area lingkungan kantor.",
+      "sumber": "07, 523132"
+    },
+    {
+      "no": 32,
+      "kode": "523133",
+      "uraian": "Belanja Pemeliharaan Jaringan",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Dipisah dari 523199",
+      "penjelasan": "Pemeliharaan/perbaikan untuk mempertahankan jaringan (listrik/telekomunikasi/TI) agar kondisi normal.",
+      "batasan": "Nilainya tidak memenuhi kriteria kapitalisasi jaringan.",
+      "kesalahan_umum": "Dicatat di 523199 (salah).",
+      "contoh_divhumas": "Perbaikan instalasi kabel LAN atau jaringan listrik di lingkungan kantor.",
+      "sumber": "07, 523133"
+    },
+    {
+      "no": 33,
+      "kode": "523199",
+      "uraian": "Belanja Pemeliharaan Lainnya",
+      "kelompok": "5231 Pemeliharaan",
+      "status": "[Rev] Uraian dipersempit",
+      "penjelasan": "Pemeliharaan aset tetap selain gedung, peralatan dan mesin, serta jalan, irigasi, dan jaringan: tempat ibadah, bangunan bersejarah/cagar budaya, makam bernilai sejarah.",
+      "batasan": "Jalan, irigasi, dan jaringan TIDAK dicatat di sini lagi (telah dipisah ke 523131–523133).",
+      "kesalahan_umum": "Pemeliharaan jalan, irigasi, atau jaringan dicatat di sini (salah, seharusnya 52313x).",
+      "contoh_divhumas": "Perawatan musala di lingkungan kantor Divhumas.",
+      "sumber": "07, 523199"
+    },
+    {
+      "no": 34,
+      "kode": "524111",
+      "uraian": "Belanja Perjalanan Dinas Biasa",
+      "kelompok": "5241 Perjalanan",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Perjalanan dinas jabatan melewati batas kota, termasuk pembinaan/konsultasi, pengawasan/pemeriksaan, mutasi, dan pengiriman jenazah.",
+      "batasan": "Melewati batas kota (luar kota satker). Mengikuti SBM tahun berkenaan.",
+      "kesalahan_umum": "Perjalanan di dalam wilayah kota yang sama dicatat di sini (seharusnya 524113).",
+      "contoh_divhumas": "Perjalanan dinas personel Subbagren ke polda jajaran di luar kota untuk kegiatan pembinaan atau asistensi teknis.",
+      "sumber": "07, 524111"
+    },
+    {
+      "no": 35,
+      "kode": "524112",
+      "uraian": "Belanja Perjalanan Dinas Tetap",
+      "kelompok": "5241 Perjalanan",
+      "status": "Aktif",
+      "penjelasan": "Perjalanan dinas tetap untuk kegiatan pelayanan masyarakat secara rutin (misal juru penerang, penyuluh).",
+      "batasan": "Untuk tugas rutin pelayanan masyarakat lapangan.",
+      "kesalahan_umum": "Perjalanan dinas biasa dicatat sebagai perjalanan dinas tetap.",
+      "contoh_divhumas": "Perjalanan dinas tetap petugas penerangan masyarakat rutin di lapangan.",
+      "sumber": "07, 524112"
+    },
+    {
+      "no": 36,
+      "kode": "524113",
+      "uraian": "Belanja Perjalanan Dinas Dalam Kota",
+      "kelompok": "5241 Perjalanan",
+      "status": "Aktif",
+      "penjelasan": "Perjalanan dinas jabatan yang dilaksanakan di dalam wilayah kota domisili kantor (transport dalam kota).",
+      "batasan": "Di dalam batas kota satker.",
+      "kesalahan_umum": "Dicatat di 524111 (luar kota).",
+      "contoh_divhumas": "Pegawai Divhumas bertugas ke Mabes/Kementerian lain di wilayah Jakarta dengan uang transport dalam kota.",
+      "sumber": "07, 524113"
+    },
+    {
+      "no": 37,
+      "kode": "524114",
+      "uraian": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota",
+      "kelompok": "5241 Perjalanan",
+      "status": "[Rev] Kasus 10 mengacu ke sini",
+      "penjelasan": "Rapat, seminar, konsinyering yang dilaksanakan di dalam kota satker penyelenggara dan dibiayai seluruhnya oleh satker penyelenggara: transport peserta (baik dari dalam maupun luar kota), panitia/moderator, narasumber, paket meeting hotel (halfday/fullday/fullboard), uang saku rapat.",
+      "batasan": "Lokasi hotel/penyelenggaraan DI DALAM KOTA satker penyelenggara. Seluruh transport peserta luar kota yang ditanggung panitia dicatat di sini.",
+      "kesalahan_umum": "Transport peserta dari luar kota untuk rapat di dalam kota dicatat di 524119 (salah, harus 524114).",
+      "contoh_divhumas": "Rapat koordinasi Divhumas diselenggarakan di hotel Jakarta mengundang peserta dari polda jajaran: transport dan uang saku peserta dicatat di 524114.",
+      "sumber": "07, 524114"
+    },
+    {
+      "no": 38,
+      "kode": "524119",
+      "uraian": "Belanja Perjalanan Dinas Paket Meeting Luar Kota",
+      "kelompok": "5241 Perjalanan",
+      "status": "Aktif",
+      "penjelasan": "Rapat, seminar, workshop yang dilaksanakan di LUAR KOTA satker penyelenggara dan dibiayai seluruhnya oleh satker penyelenggara: tiket/transport, paket meeting hotel (fullboard), uang saku, uang harian.",
+      "batasan": "Lokasi penyelenggaraan DI LUAR KOTA satker penyelenggara.",
+      "kesalahan_umum": "Transport peserta yang berasal dari kota yang sama dengan lokasi rapat dicatat di 524119 (seharusnya peserta lokal 524114).",
+      "contoh_divhumas": "Rapat kerja teknis yang diselenggarakan Divhumas di Surabaya: tiket pesawat, paket hotel fullboard, dan uang saku peserta.",
+      "sumber": "07, 524119"
+    },
+    {
+      "no": 39,
+      "kode": "532111",
+      "uraian": "Belanja Modal Peralatan dan Mesin",
+      "kelompok": "53 Belanja Modal",
+      "status": "[Rev] Dasar batas Rp1 juta",
+      "penjelasan": "Pengadaan peralatan dan mesin termasuk biaya pembelian, pengangkutan, instalasi, dan biaya langsung hingga siap digunakan.",
+      "batasan": "Nilai per satuan ≥ Rp1 juta (PMK 181/PMK.06/2016 Pasal 40) dan masa manfaat lebih dari 1 tahun. Di bawah Rp1 juta dicatat sebagai 521119 atau 521211.",
+      "kesalahan_umum": "Membeli printer/kamera di atas Rp1 juta dicatat di belanja barang 521111/521211.",
+      "contoh_divhumas": "Pembelian kamera dokumentasi mirrorless seharga Rp15 juta untuk Biro Multimedia.",
+      "sumber": "07, 532111"
+    },
+    {
+      "no": 40,
+      "kode": "533111",
+      "uraian": "Belanja Modal Gedung dan Bangunan",
+      "kelompok": "53 Belanja Modal",
+      "status": "[Rev] Dasar batas Rp25 juta",
+      "penjelasan": "Perolehan gedung dan bangunan secara kontraktual sampai siap digunakan, termasuk biaya perencanaan, pengawasan, konstruksi, IMB, notaris, dan pajak.",
+      "batasan": "Perolehan awal gedung baru dengan nilai perolehan ≥ Rp25 juta (PMK 181/PMK.06/2016).",
+      "kesalahan_umum": "Renovasi gedung yang menambah kapasitas dicatat di sini (seharusnya penambahan nilai 533121).",
+      "contoh_divhumas": "Pembangunan gedung studio podcast atau kantor baru.",
+      "sumber": "07, 533111"
+    },
+    {
+      "no": 41,
+      "kode": "533121",
+      "uraian": "Belanja Penambahan Nilai Gedung dan Bangunan",
+      "kelompok": "53 Belanja Modal",
+      "status": "Aktif",
+      "penjelasan": "Pengeluaran setelah perolehan awal gedung yang memperpanjang masa manfaat, menambah kapasitas ruangan, luas lantai, atau standar kinerja.",
+      "batasan": "Memenuhi kriteria peningkatan fungsi/kapasitas DAN nilai belanja ≥ Rp25 juta.",
+      "kesalahan_umum": "Perbaikan yang hanya mempertahankan fungsi dicatat di sini (seharusnya 523111).",
+      "contoh_divhumas": "Pembuatan partisi permanen dan perluasan lantai ruang kerja Bagrenmin senilai Rp40 juta yang menambah kapasitas.",
+      "sumber": "07, 533121"
+    },
+    {
+      "no": 42,
+      "kode": "536111",
+      "uraian": "Belanja Modal Lainnya",
+      "kelompok": "53 Belanja Modal",
+      "status": "Aktif",
+      "penjelasan": "Aset tetap lainnya dan aset tak berwujud: software komputer khusus, lisensi perangkat lunak dengan masa manfaat lebih dari 1 tahun, pengembangan website portal dinas.",
+      "batasan": "Masa manfaat lebih dari 1 tahun dan memenuhi kriteria aset tak berwujud.",
+      "kesalahan_umum": "Lisensi software berdurasi 1 tahun atau kurang dicatat di 536111 (seharusnya belanja barang 521111).",
+      "contoh_divhumas": "Lisensi software editing video profesional durasi 3 tahun untuk Biro Multimedia; pembuatan aplikasi portal resmi Divhumas.",
+      "sumber": "07, 536111"
+    },
+    {
+      "no": 43,
+      "kode": "536121",
+      "uraian": "Belanja Penambahan Nilai Aset Tetap Lainnya dan/atau Aset Lainnya",
+      "kelompok": "53 Belanja Modal",
+      "status": "Aktif",
+      "penjelasan": "Belanja modal setelah perolehan awal aset lainnya yang memperpanjang masa manfaat atau meningkatkan fitur dan kapasitasnya.",
+      "batasan": "Memenuhi kriteria peningkatan signifikan aset tak berwujud yang sudah ada.",
+      "kesalahan_umum": "Pembaruan minor/bug fix rutin dicatat di sini (seharusnya pemeliharaan).",
+      "contoh_divhumas": "Pengembangan modul analitik baru pada aplikasi portal web yang sudah terpasang.",
+      "sumber": "07, 536121"
+    },
+    {
+      "no": 44,
+      "kode": "526xxx",
+      "uraian": "Belanja Barang untuk Diserahkan kepada Masyarakat/Pemda",
+      "kelompok": "526 Bantuan Pemerintah",
+      "status": "[Verifikasi] Slide DJPb",
+      "penjelasan": "Pengadaan barang yang sejak awal direncanakan untuk diserahkan kepada masyarakat atau pemerintah daerah dalam skema bantuan pemerintah.",
+      "batasan": "Bantuan berbentuk uang tidak dicatat di sini. Harus ada dasar penugasan resmi Presiden / RKP.",
+      "kesalahan_umum": "Barang operasional kantor satker dicatat di sini.",
+      "contoh_divhumas": "Bantuan perlengkapan edukasi media untuk komunitas masyarakat yang diserahkan resmi.",
+      "sumber": "Slide DJPb"
+    },
+    {
+      "no": 45,
+      "kode": "571-576",
+      "uraian": "Belanja Bantuan Sosial",
+      "kelompok": "57 Bantuan Sosial",
+      "status": "[Rev] Ditambahkan dari 07",
+      "penjelasan": "Bantuan sosial untuk rehabilitasi sosial, perlindungan, penanggulangan kemiskinan, atau penanggulangan bencana alam.",
+      "batasan": "Bukan untuk belanja operasional satker (umumnya bukan belanja tupoksi Divhumas).",
+      "kesalahan_umum": "Bantuan dinas pegawai dicatat sebagai bansos.",
+      "contoh_divhumas": "Bantuan sosial penanggulangan korban bencana alam.",
+      "sumber": "07, 571–576"
+    },
+    {
+      "no": 46,
+      "kode": "521252-521254",
+      "uraian": "Belanja Ekstrakomptabel",
+      "kelompok": "Ekstrakomptabel",
+      "status": "[Verifikasi] Sumber tidak resmi (kanwil)",
+      "penjelasan": "Pengadaan barang peralatan mesin atau gedung di bawah batas nilai kapitalisasi (di bawah Rp1 juta atau Rp25 juta) yang dicatat ekstrakomptabel.",
+      "batasan": "Wajib cek ke BAS resmi sebelum dipakai pada RKAKL resmi.",
+      "kesalahan_umum": "Menggunakan kode ini tanpa konfirmasi aturan DJPb terbaru.",
+      "contoh_divhumas": "Kamera kecil seharga Rp800 ribu yang memenuhi kriteria aset tetapi di bawah batas kapitalisasi.",
+      "sumber": "Verifikasi sumber kanwil"
+    }
+  ],
+  "frequent_mistakes": [
+    {
+      "topik": "Sewa (522141)",
+      "kesalahan_umum": "Sewa kontraktual kantor/gedung/ruangan/kendaraan dicatat di 521111 (keperluan perkantoran) atau 522191 (jasa lainnya).",
+      "seharusnya": "522141 (Belanja Sewa)",
+      "catatan": "Sewa bersifat kontraktual memiliki akun tersendiri di 522141."
+    },
+    {
+      "topik": "Bahan (521211) vs Persediaan (521811)",
+      "kesalahan_umum": "Seminar kit untuk satu kali kegiatan dicatat di 521811 (persediaan konsumsi).",
+      "seharusnya": "521211 jika untuk satu kegiatan; 521811 jika direncanakan kontinu sepanjang tahun.",
+      "catatan": "Pembeda utama adalah NIAT RKAKL (perencanaan awal), bukan wujud fisik barang."
+    },
+    {
+      "topik": "Langganan (522119) vs Keperluan Kantor (521111)",
+      "kesalahan_umum": "Langganan tetap internet kontrak satu tahun dicatat di 521111.",
+      "seharusnya": "522119 jika penyedia mencatat sebagai pelanggan tetap; 521111 jika tidak terdaftar pelanggan tetap.",
+      "catatan": "Rujukan FAQ DJPb: internet kontrak tahunan masuk 522119."
+    },
+    {
+      "topik": "Honor Pengelola (521115) vs Honor Output (521213)",
+      "kesalahan_umum": "Honor pejabat dan panitia pengadaan barang/jasa dicatat di 521115.",
+      "seharusnya": "521213 untuk pengadaan yang tidak menghasilkan aset tetap; 521115 untuk pengelola operasional yang dibayar terus-menerus (KPA, PPK, Bendahara); 522151 untuk narasumber.",
+      "catatan": "Honor operasional (521115) dibayar rutin tahunan; honor output (521213) bersifat insidentil."
+    },
+    {
+      "topik": "Jasa Pindah Kantor",
+      "kesalahan_umum": "Pindah kantor menggunakan pihak ketiga dicatat di 521119.",
+      "seharusnya": "522191 jika memakai jasa pihak ketiga (skillware); 521119 jika dilakukan mandiri tanpa pihak ketiga.",
+      "catatan": "Akun 522191 khusus menampung jasa keterampilan pihak ketiga."
+    },
+    {
+      "topik": "Renovasi Gedung (533121 vs 523111)",
+      "kesalahan_umum": "Pekerjaan yang menambah kapasitas/luas ruang kerja dicatat di pemeliharaan 523111.",
+      "seharusnya": "533121 jika nilai > Rp25 juta dan menambah kapasitas; 523111 jika hanya memelihara kondisi normal (≤ Rp25 juta).",
+      "catatan": "Batas kapitalisasi gedung: PMK 181/PMK.06/2016 Pasal 40 (Rp25 Juta)."
+    },
+    {
+      "topik": "Paket Meeting (524114 vs 524119)",
+      "kesalahan_umum": "Transport peserta luar kota untuk rapat yang diadakan di dalam kota satker dicatat di 524119.",
+      "seharusnya": "524114 jika kota lokasi penyelenggaraan di dalam kota satker; 524119 hanya jika diselenggarakan di luar kota satker.",
+      "catatan": "Patokan utama adalah TEMPAT HOTEL PENYELENGGARAAN, bukan asal peserta."
+    },
+    {
+      "topik": "Jalan, Irigasi, Jaringan",
+      "kesalahan_umum": "Pemeliharaan jalan/jaringan kantor dicatat di 523199 (pemeliharaan lainnya).",
+      "seharusnya": "523131 (jalan & jembatan), 523132 (irigasi/drainase), 523133 (jaringan listrik/telekomunikasi).",
+      "catatan": "Telah dipisahkan dari 523199 berdasarkan pemutakhiran KEP DJPb."
+    },
+    {
+      "topik": "Lisensi Software (536111 vs 521111)",
+      "kesalahan_umum": "Lisensi software dengan masa aktif ≤ 1 tahun dicatat di belanja modal 536111.",
+      "seharusnya": "536111 jika masa manfaat > 1 tahun (aset tak berwujud); 521111 jika masa berlaku ≤ 1 tahun.",
+      "catatan": "Rujukan FAQ DJPb: lisensi tahunan (antivirus 1 tahun) masuk belanja barang operasional."
+    },
+    {
+      "topik": "Akun Pandemi COVID-19",
+      "kesalahan_umum": "Akun 521131, 521241, dan 522192 masih dicantumkan dalam RKA baru.",
+      "seharusnya": "Tidak digunakan lagi (dihimbau dialihkan ke akun belanja barang reguler).",
+      "catatan": "Dasar: KEP-331/PB/2021."
+    }
+  ],
+  "divhumas_cases": [
+    {
+      "no": 1,
+      "situasi": "Biro Penmas menyelenggarakan sosialisasi satu hari. Peserta dibagi map, pulpen, dan sertifikat yang hanya dipakai sekali.",
+      "akun_tepat": "521211 - Belanja Bahan",
+      "alasan": "Habis dalam satu kegiatan, tidak direncanakan berulang/kontinu sepanjang tahun."
+    },
+    {
+      "no": 2,
+      "situasi": "Biro Penmas membeli seminar kit untuk diklat internal yang akan dipakai berkali-kali selama setahun.",
+      "akun_tepat": "521811 - Belanja Barang Persediaan Konsumsi",
+      "alasan": "Direncanakan kontinu untuk stok, masuk pencatatan persediaan. Pembedanya adalah niat awal perencanaan RKAKL."
+    },
+    {
+      "no": 3,
+      "situasi": "Bagrenmin membeli galon air dan teh untuk tamu serta rapat internal kantor.",
+      "akun_tepat": "521111 - Belanja Keperluan Perkantoran",
+      "alasan": "Keperluan harian operasional perkantoran sesuai ketentuan 07 (minum/makanan kecil rapat, penerimaan tamu)."
+    },
+    {
+      "no": 4,
+      "situasi": "Divhumas berlangganan internet kontrak satu tahun dengan penyedia yang tercatat sebagai pelanggan tetap.",
+      "akun_tepat": "522119 - Belanja Langganan Daya dan Jasa Lainnya",
+      "alasan": "Tercatat sebagai pelanggan tetap penyedia jasa (FAQ DJPb). Jika tidak terdaftar pelanggan tetap, masuk 521111."
+    },
+    {
+      "no": 5,
+      "situasi": "Biro Multimedia menyewa ruang studio selama tiga bulan untuk produksi video edukasi masyarakat.",
+      "akun_tepat": "522141 - Belanja Sewa",
+      "alasan": "Pembayaran sewa kontraktual ruangan."
+    },
+    {
+      "no": 6,
+      "situasi": "[Rev] Bagrenmin membayar honor PPK setiap bulan selama tahun anggaran, dan honor Pejabat Pengadaan serta Panitia PPHP untuk pengadaan yang tidak menghasilkan aset tetap.",
+      "akun_tepat": "PPK: 521115 (Honor Operasional Satker) | Pejabat Pengadaan & PPHP: 521213 (Honor Output Kegiatan)",
+      "alasan": "PPK adalah jabatan pengelola operasional yang dibayar terus-menerus (521115). Pejabat/panitia pengadaan dan PPHP masuk honor output 521213."
+    },
+    {
+      "no": 7,
+      "situasi": "Biro PID menyelenggarakan lomba konten kreatif sekali setahun dan membayar honor juri dan tim pelaksana.",
+      "akun_tepat": "521213 - Belanja Honor Output Kegiatan",
+      "alasan": "Honor insidentil terkait langsung dengan pencapaian output kegiatan."
+    },
+    {
+      "no": 8,
+      "situasi": "Biro Penmas mengundang dosen sebagai narasumber webinar publik.",
+      "akun_tepat": "522151 - Belanja Jasa Profesi",
+      "alasan": "Honorarium narasumber keahlian. Jika narasumber berstatus PNS, peserta sasaran utamanya harus dari luar eselon I atau masyarakat."
+    },
+    {
+      "no": 9,
+      "situasi": "Biro Multimedia membayar jasa ekspedisi pihak ketiga untuk mengirim perangkat pameran ke polda jajaran di daerah.",
+      "akun_tepat": "522191 - Belanja Jasa Lainnya",
+      "alasan": "Jasa pihak ketiga yang memerlukan keterampilan teknis (skillware). Jika tanpa pihak ketiga masuk 521119."
+    },
+    {
+      "no": 10,
+      "situasi": "[Rev] Rapat koordinasi Divhumas di Jakarta mengundang satker vertikal dari luar Jakarta. Biaya transport peserta dari luar Jakarta ditanggung oleh panitia.",
+      "akun_tepat": "524114 - Belanja Perjalanan Dinas Paket Meeting Dalam Kota",
+      "alasan": "Penyelenggara rapat berlokasi di dalam kota (Jakarta). Seluruh transport peserta lokal maupun dari luar kota dibebankan pada 524114 (07 huruf a). Gunakan 524119 hanya jika rapat di luar kota satker."
+    },
+    {
+      "no": 11,
+      "situasi": "Pengecatan ulang ruang kantor Biro Penmas senilai Rp15 juta. Tujuannya hanya merawat kondisi ruangan.",
+      "akun_tepat": "523111 - Belanja Pemeliharaan Gedung dan Bangunan",
+      "alasan": "Hanya mempertahankan kondisi normal, nilai di bawah batas kapitalisasi Rp25 juta, tidak menambah kapasitas/masa manfaat."
+    },
+    {
+      "no": 12,
+      "situasi": "Penambahan partisi permanen di ruang kerja Bagrenmin senilai Rp40 juta yang menambah kapasitas ruangan.",
+      "akun_tepat": "533121 - Belanja Penambahan Nilai Gedung dan Bangunan",
+      "alasan": "Menambah kapasitas ruangan dan nilai belanja di atas batas kapitalisasi Rp25 juta."
+    },
+    {
+      "no": 13,
+      "situasi": "Perpanjangan lisensi software desain grafis untuk Biro Multimedia dengan masa berlaku 3 tahun.",
+      "akun_tepat": "536111 - Belanja Modal Lainnya",
+      "alasan": "Masa manfaat lebih dari 1 tahun dan memenuhi kriteria aset tak berwujud."
+    },
+    {
+      "no": 14,
+      "situasi": "Perpanjangan lisensi antivirus kantor untuk jangka waktu 6 bulan.",
+      "akun_tepat": "521111 - Belanja Keperluan Perkantoran",
+      "alasan": "Masa manfaat tidak lebih dari 1 tahun (FAQ DJPb)."
+    },
+    {
+      "no": 15,
+      "situasi": "Pengadaan satu unit kamera dokumentasi seharga Rp15 juta untuk kebutuhan liputan Biro Multimedia.",
+      "akun_tepat": "532111 - Belanja Modal Peralatan dan Mesin",
+      "alasan": "Nilai perolehan di atas batas kapitalisasi Rp1 juta per satuan (PMK 181/PMK.06/2016)."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "no": 1,
+      "situasi": "Pembelian ATK habis pakai untuk kebutuhan kantor bulanan.",
+      "pilihan": [
+        "521111",
+        "521211",
+        "521811",
+        "522191"
+      ],
+      "kunci": "521111",
+      "pembahasan": "521111 Belanja Keperluan Perkantoran. ATK operasional rutin harian kantor."
+    },
+    {
+      "no": 2,
+      "situasi": "Pembelian bahan spanduk untuk satu kali pameran.",
+      "pilihan": [
+        "521111",
+        "521211",
+        "521811",
+        "522141"
+      ],
+      "kunci": "521211",
+      "pembahasan": "521211 Belanja Bahan. Bahan pendukung yang habis dipakai untuk satu kali kegiatan output."
+    },
+    {
+      "no": 3,
+      "situasi": "Pembayaran jasa keamanan (satpam) kontraktual kantor.",
+      "pilihan": [
+        "521111",
+        "521213",
+        "522141",
+        "522191"
+      ],
+      "kunci": "521111",
+      "pembahasan": "521111 Belanja Keperluan Perkantoran (satuan tidak terkait jumlah pegawai, seperti satpam/cleaning service)."
+    },
+    {
+      "no": 4,
+      "situasi": "Pembayaran honor tim pelaksana kegiatan yang bersifat insidentil.",
+      "pilihan": [
+        "521115",
+        "521213",
+        "522151",
+        "521219"
+      ],
+      "kunci": "521213",
+      "pembahasan": "521213 Belanja Honor Output Kegiatan. Honor tim pelaksana kegiatan insidentil terkait pencapaian output."
+    },
+    {
+      "no": 5,
+      "situasi": "Pembayaran sewa kendaraan untuk kegiatan peliputan lapangan.",
+      "pilihan": [
+        "521119",
+        "522141",
+        "522191",
+        "524113"
+      ],
+      "kunci": "522141",
+      "pembahasan": "522141 Belanja Sewa. Pembayaran sewa kontraktual sarana kendaraan."
+    },
+    {
+      "no": 6,
+      "situasi": "Pindah kantor, angkutan barang menggunakan jasa ekspedisi pihak ketiga.",
+      "pilihan": [
+        "521119",
+        "522191",
+        "522141",
+        "524111"
+      ],
+      "kunci": "522191",
+      "pembahasan": "522191 Belanja Jasa Lainnya. Membutuhkan keterampilan pihak ketiga (skillware)."
+    },
+    {
+      "no": 7,
+      "situasi": "Pindah kantor, angkutan barang dilakukan oleh pegawai sendiri tanpa pihak ketiga.",
+      "pilihan": [
+        "521111",
+        "521119",
+        "522191",
+        "521211"
+      ],
+      "kunci": "521119",
+      "pembahasan": "521119 Belanja Barang Operasional Lainnya. Pindah kantor mandiri tanpa melibatkan pihak ketiga."
+    },
+    {
+      "no": 8,
+      "situasi": "Perbaikan kebocoran atap yang hanya mempertahankan kondisi gedung, senilai Rp20 juta.",
+      "pilihan": [
+        "521111",
+        "523111",
+        "533111",
+        "533121"
+      ],
+      "kunci": "523111",
+      "pembahasan": "523111 Belanja Pemeliharaan Gedung dan Bangunan. Hanya mempertahankan kondisi normal dan nilainya di bawah batas kapitalisasi Rp25 juta."
+    },
+    {
+      "no": 9,
+      "situasi": "[Rev] Honor Pejabat Pengadaan barang/jasa yang dibayar setiap bulan selama tahun anggaran.",
+      "pilihan": [
+        "521115",
+        "521213",
+        "522151",
+        "521211"
+      ],
+      "kunci": "521115",
+      "pembahasan": "521115 jika dianggap pengelola operasional yang terus-menerus; 521213 menurut versi 07. Wajib cek FAQ DJPb sebelum penetapan SK."
+    },
+    {
+      "no": 10,
+      "situasi": "[Rev] Pemeliharaan jalan kompleks perkantoran yang rusak, nilai di bawah batas kapitalisasi.",
+      "pilihan": [
+        "523111",
+        "523131",
+        "523199",
+        "533111"
+      ],
+      "kunci": "523131",
+      "pembahasan": "523131 Belanja Pemeliharaan Jalan dan Jembatan. Pemeliharaan jalan telah memiliki akun khusus dipisah dari 523199."
+    }
+  ]
+}

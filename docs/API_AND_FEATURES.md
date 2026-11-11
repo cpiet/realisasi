@@ -17,6 +17,9 @@ Dokumen ini mendokumentasikan rute URL, endpoint kontroler, filter middleware, d
 | `GET` | `/sbm` | `Sbm::index` | Katalog referensi Standar Biaya Masukan (SBM) |
 | `GET` | `/sbm/(:segment)` | `Sbm::item/$1` | Rincian item tabel tarif SBM tertentu |
 | `GET` | `/sbm/search` | `Sbm::search` | Endpoint AJAX pencarian cepat tarif SBM |
+| `GET` | `/akun` | `AccountCodes::index` | Kamus Kode Akun Belanja BAS (Modul RKAKL TA 2027 Divhumas Polri) |
+| `GET` | `/akun/(:segment)` | `AccountCodes::detail/$1` | Halaman detail spesifik kode akun, batasan, kesalahan & contoh kasus |
+| `GET` | `/akun/api/search` | `AccountCodes::apiSearch` | Endpoint AJAX live search dan autocomplete akun |
 
 ### Rute Autentikasi (`Auth`)
 | Method | Rute | Handler | Deskripsi |
